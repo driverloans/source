@@ -37,3 +37,12 @@
     color: #000;
     padding: 0.2em 0;
 }
+
+/**
+ * Global Styles
+ */
+
+.container{
+  max-width:960px;
+  margin:0 auto;
+}
