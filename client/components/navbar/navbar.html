@@ -11,12 +11,12 @@
     </div>
     <div collapse="isCollapsed" class="navbar-collapse collapse" id="navbar-main">
       <ul class="nav navbar-nav navbar-right">
-        <li ng-hide="isLoggedIn()"><a href="">Apply</a></li>
-        <li ng-hide="isLoggedIn()"><a href="">About us</a></li>
 
+        <li ng-hide="isLoggedIn()"><a href="">Apply</a></li>
+        <li ng-hide="isLoggedIn()"><a href="">How it works</a></li>
+        <li ng-hide="isLoggedIn()"><a href="">About us</a></li>
+        <li ng-hide="isLoggedIn()"><a href="">Contact </a></li>
         <li ng-hide="isLoggedIn()"><a href="">Questions</a></li>
-        <li ng-hide="isLoggedIn()"><a href="">Contact us</a></li>
-        <li ng-hide="isLoggedIn()"><a href="">Agreement</a></li>
         <li ng-hide="isLoggedIn()"><a class="btn btn-default btn-login" href="/login">Login</a></li>
         <li ng-show="isLoggedIn()"><a href="" ng-click="logout()">Logout</a></li>
       </ul>

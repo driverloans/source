@@ -47,7 +47,7 @@ padding-top:5px;
 #apply-btn{
   width:136px;
   height:50px;
-
+  font-weight:bold;
   font-size:16px;
 }
 
@@ -64,7 +64,7 @@ padding-top:5px;
 
 .container-whyApply{
   max-width:900px;
-  margin:160px auto;
+  margin:200px auto;
 }
 
 .page-paragraph{
@@ -74,4 +74,33 @@ padding-top:5px;
 .footer{
   background:#eee;
   height:250px;
+}
+
+.container-tutorial{
+  max-width:100%;
+  margin:0 auto;
+  background:#eee;
+  height:300px;
+  text-align:left;
+}
+
+#tutorial-header{
+  font-size:35px;
+  margin-top:50px;
+  color:#4d4d4d;
+}
+
+.container-steps{
+  max-width:765px;
+  margin:0 auto;
+}
+
+#tutorial-header-small{
+  color:#8cc14c;
+  font-size:25px;
+  margin-top:-10px;
+}
+
+.steps-row{
+  margin-top:30px;
 }
