@@ -24,4 +24,8 @@ angular.module('driverloansApp')
     $scope.$on('$destroy', function () {
       socket.unsyncUpdates('thing');
     });
+
+    $scope.getValue = function(){
+        console.log();
+    };
   });

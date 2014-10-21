@@ -50,7 +50,7 @@
 body{
   padding-top:70px;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-
+-webkit-font-smoothing: antialiased;
 }
 
 /**
@@ -61,8 +61,26 @@ body{
   height:70px;
   padding-top:10px;
   background:white;
+  border-bottom:1px solid #7c7c7c;
 }
 
 .navbar a{
   font-size:16px;
+}
+
+#logo{
+  width:100px;
+  margin-top:-15px;
+}
+
+.navbar-nav a{
+  font-weight:bold;
+}
+
+.navbar-nav a:hover{
+  color:red;
+}
+
+.btn-login{
+  margin-top:-1px;
 }
