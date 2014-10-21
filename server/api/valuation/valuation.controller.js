@@ -1,5 +1,9 @@
 'use strict';
 
+var importio = require("import-io").client;
+var io = new importio("bb34dbac-597c-44cb-8f55-68a71aaf08ec", "xUeUIud+F9bCzX2zjcIahiDmqfBSkDGtOeetGDeIbWgLHimwbR6ABvEKJxFBoYHbWsqjjy3Yvzde00olYc87GA==", "import.io");
+
+
 var _ = require('lodash');
 var Valuation = require('./valuation.model');
 

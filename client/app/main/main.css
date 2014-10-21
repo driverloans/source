@@ -7,7 +7,7 @@
     margin-top: -20px;
     background-image: url("/assets/images/background.jpg");
     height:700px;
-    padding-top:100px;
+    padding-top:130px;
 }
 
 #banner h1 {
@@ -58,11 +58,20 @@ padding-top:5px;
 
 .page-header{
   text-align:left;
-  color:#4d4d4d;
+  color:#198efb;
   font-size:25px;
 }
 
 .container-whyApply{
   max-width:900px;
-  margin:180px auto;
+  margin:160px auto;
+}
+
+.page-paragraph{
+  font-size:20px;
+}
+
+.footer{
+  background:#eee;
+  height:250px;
 }
