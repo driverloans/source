@@ -107,3 +107,28 @@ background:#fff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.33);
   -webkit-font-smoothing: antialiased;
 }
+
+/**
+*Apply page Styles
+*/
+.container-apply{
+max-width:500px;
+margin:50px auto;
+text-align:Center;
+}
+
+.arrow-right{
+  padding-left:20px;
+  padding-right:20px;
+}
+
+.apply-step{
+  font-size:16px;
+  letter-spacing:1px;
+}
+
+.page-headline{
+  font-weight:bold;
+  font-size:25px;
+  margin-top:30px;
+}

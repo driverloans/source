@@ -6,8 +6,8 @@
     border-bottom: none;
     margin-top: -20px;
     background-image: url("/assets/images/background.jpg");
-    height:700px;
-    padding-top:130px;
+    height:520px;
+    padding-top:60px;
 }
 
 #banner h1 {
@@ -50,6 +50,7 @@ padding-top:5px;
   height:50px;
   font-weight:bold;
   font-size:16px;
+  padding-top:12px;
 }
 
 .apply-input{
@@ -71,7 +72,7 @@ padding-top:5px;
 }
 
 .page-paragraph{
-  font-size:16px;
+  font-size:15px;
 }
 
 .footer{
@@ -83,7 +84,7 @@ padding-top:5px;
   max-width:100%;
   margin:0 auto;
   background:#eee;
-  height:600px;
+  height:580px;
   text-align:left;
 }
 
@@ -91,6 +92,7 @@ padding-top:5px;
   font-size:35px;
   margin-top:50px;
   color:#4d4d4d;
+
 }
 
 .container-steps{
@@ -102,6 +104,7 @@ padding-top:5px;
   color:#8cc14c;
   font-size:25px;
   margin-top:-10px;
+
 }
 
 .steps-row{
@@ -137,11 +140,17 @@ padding-top:5px;
     margin-top: -16px; /* Note, this must be half the font size */
 }
 
-.req-text{
-  letter-spacing:1px;
+.req-text p{
+  letter-spacing:0.7px;
+  color:#7c7c7c;
 }
 
 .steps-info{
-
+  font-weight:bold;
   font-size:20px;
+}
+
+.step-text{
+letter-spacing:0.7px;
+color:#7c7c7c;
 }

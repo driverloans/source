@@ -28,4 +28,6 @@ angular.module('driverloansApp')
     $scope.getValue = function(){
         console.log();
     };
+
+
   });
